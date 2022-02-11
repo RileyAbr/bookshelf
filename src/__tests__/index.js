@@ -1,7 +1,7 @@
-import ReactDOM from 'react-dom'
 import '@testing-library/jest-dom/extend-expect'
 import {screen, waitForElementToBeRemoved} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
+import ReactDOM from 'react-dom'
 import {server} from 'test/server'
 
 // enable API mocking in test runs using the same request handlers
